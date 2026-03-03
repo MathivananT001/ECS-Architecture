@@ -1,0 +1,24 @@
+{
+  "name": "serverless-app",
+  "version": "1.0.0",
+  "description": "Simple serverless Node.js application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "serverless",
+    "ecs",
+    "fargate"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
